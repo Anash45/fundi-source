@@ -98,6 +98,14 @@ const Header = () => {
                 For schools
               </Link>
             </li>
+            <li>
+              <Link
+                  to="/for-charities"
+                  className="inter-f text-[15px] text-night-black block py-4 lg:py-2.5 lg:pl-3 px-4 lg:px-3 underline-offset-2 hover:underline transition-all duration-300"
+              >
+                For charities
+              </Link>
+            </li>
 
             <li>
               <Link

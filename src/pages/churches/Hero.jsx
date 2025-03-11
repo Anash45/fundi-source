@@ -20,16 +20,6 @@ const Hero = () => {
                 focus on ministry while providing a simple, effective way for
                 members to support your mission.
               </p>
-
-              <Link
-                to="https://calendly.com/fundi-au/fundi-demo-call"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="bg-[#ff5a65] hover:bg-[#ff3d5a] text-[15px] text-white font-medium py-[0.625rem] px-[1.5rem] rounded-full transition-colors flex items-center w-fit justify-center">
-                  Book a demo
-                </button>
-              </Link>
             </div>
           </div>
 

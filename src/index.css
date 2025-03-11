@@ -226,6 +226,12 @@ video {
   background-position: center center;
 }
 
+.charitieshero {
+  background-image: url("./assets/for-charities/IMAGE-1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
 @keyframes bouncingDown {
   0%,
   45%,

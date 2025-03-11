@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import heroVideo from "../../assets/hero-video.mp4";
+import heroVideo from "../../assets/hero-video-2.mp4";
 
 const Hero = () => {
   const [visibleBubbleIndex, setVisibleBubbleIndex] = useState(0);
@@ -15,6 +15,7 @@ const Hero = () => {
     "Real time support",
     "Live supporter analytics",
     "Integrated volunteer portal & silent auctions",
+    "Charity fundraising",
   ];
 
   useEffect(() => {

@@ -9,7 +9,7 @@ const faqData = [
     id: 1,
     question: "How much does it cost to use Fundi?",
     answer:
-      "Fundi is completely free for all Australian churches, schools, and clubs. There are no contracts, hosting, or dashboard fees, and you receive 100% of all supporter payments. If you'd like to access more advanced features like Vetti, Silenti and high-level analytics reports, you can choose a fundi tier account.",
+      "Fundi is completely free for all Australian churches, charities, schools, and clubs. There are no contracts, hosting, or dashboard fees, and you receive 100% of all supporter payments. If you'd like to access more advanced features like Vetti, Silenti and high-level analytics reports, you can choose a fundi tier account.",
   },
   {
     id: 2,

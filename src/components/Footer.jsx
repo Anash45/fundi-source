@@ -81,6 +81,15 @@ const Footer = () => {
                 For Schools
               </Link>
             </li>
+            
+            <li>
+              <Link
+                to="/for-charities"
+                className="inline-block font-axiforma text-normal sm:text-[22px] text-white relative transition-[padding] duration-300 hover:pl-12 before:content-[url(https://5255565.fs1.hubspotusercontent-na1.net/hubfs/5255565/mews01/Global/Icons/white-footer-link-icon.svg)] before:absolute before:top-1/2 before:-translate-y-1/2 before:left-0 before:leading-[1px] before:opacity-0 before:transition-[opacity] before:duration-300 hover:before:opacity-100"
+              >
+                For Charities
+              </Link>
+            </li>
 
             <li>
               <Link
@@ -112,7 +121,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="#faq"
+                href="/#faq"
                 className="inline-block font-axiforma text-normal sm:text-[22px] text-white relative transition-[padding] duration-300 hover:pl-12 before:content-[url(https://5255565.fs1.hubspotusercontent-na1.net/hubfs/5255565/mews01/Global/Icons/white-footer-link-icon.svg)] before:absolute before:top-1/2 before:-translate-y-1/2 before:left-0 before:leading-[1px] before:opacity-0 before:transition-[opacity] before:duration-300 hover:before:opacity-100"
               >
                 FAQ

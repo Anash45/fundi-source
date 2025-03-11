@@ -3,7 +3,7 @@ header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Allow-Headers: Content-Type");
 
-$uploadDir = __DIR__ . "/uploads/"; // Ensure this folder exists & is writable
+$uploadDir = __DIR__ . "/server/uploads/"; // Ensure this folder exists & is writable
 
 if (!file_exists($uploadDir)) {
     mkdir($uploadDir, 0777, true); // Create the uploads folder if it doesn't exist

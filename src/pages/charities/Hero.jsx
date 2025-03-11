@@ -1,0 +1,31 @@
+import React from "react";
+import Image from "../../assets/for-charities/IMAGE-1.jpg";
+import { Link } from "react-router-dom";
+import { IoArrowDown } from "react-icons/io5";
+
+const Hero = () => {
+  return (
+      <section className="charitieshero overflow-hidden mt-[72px] rounded-b-[40px] lg:rounded-b-[80px] relative bg-no-repeat bg-center bg-cover px-4">
+        <div className="max-w-[1280px] z-40 relative w-full mx-auto lg:pt-16 lg:pb-24 pb-16 pt-20 md:min-h-auto xxl:min-h-[65vh] xl:max-h-[650px] md:max-h-[650px] md:h-screen md:min-h-[350px] min-h-[450px] flex items-center">
+          <div className="max-w-[700px] relative">
+            <h2 className="text-[32px] md:text-[48px] leading-[1.2] md:leading-[1.25] text-white font-axiforma-r mb-4 relative">
+            A smarter way for charities to fundraise
+            </h2>
+  
+            <p className="text-white mb-6 hidden md:block">
+            Empower your charity with Fundi's seamless fundraising platform, making it easier than ever to receive consistent donations and engage supporters.
+              
+            </p>
+          </div>
+  
+          <a href="#why" className="cursor-pointer w-12 h-12 text-2xl rounded-full absolute bottom-5 md:bottom-20 xxl:bottom-16 xxl:bottom-16 left-1/2 -translate-x-1/2 animate-bouncingDown text-white border border-white flex items-center justify-center">
+            <IoArrowDown />
+          </a>
+        </div>
+  
+        <div className="absolute inset-0 bg-black/35"></div>
+      </section>
+  );
+};
+
+export default Hero;

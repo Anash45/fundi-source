@@ -4,6 +4,7 @@ import Home from "./pages/home/index";
 import ForSchools from "./pages/schools";
 import ForClubs from "./pages/clubs";
 import ForChurches from "./pages/churches";
+import ForCharities from "./pages/charities";
 import Pricing from "./pages/pricing/page";
 import ScrollToTop from "./components/ScrollToTop";
 import EOI from "./pages/eoi";
@@ -15,6 +16,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/for-schools" element={<ForSchools />} />
+        <Route path="/for-charities" element={<ForCharities />} />
         <Route path="/for-clubs" element={<ForClubs />} />
         <Route path="/for-churches" element={<ForChurches />} />
         <Route path="/EOI" element={<EOI />} />

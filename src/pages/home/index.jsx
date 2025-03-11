@@ -12,6 +12,7 @@ import Hero from "./Hero";
 import FAQ from "./FAQ";
 import SimplifiesOperations from "./SimplifiesOperations";
 import Hospitality from "./Hospitality";
+import ScrollToFAQ from "../../components/ScrollToFaq";
 
 const Home = () => {
   const colors = useMemo(() => ["#EFEFFF", "#E6F5F0"], []);
@@ -29,6 +30,7 @@ const Home = () => {
 
   return (
     <div>
+      <ScrollToFAQ />
       <Header />
       <div
         className="transition-background duration-[.6s] pb-[60px] md:pb-[80px] lg:pt-28 sm:pt-28 pt-[80px]"

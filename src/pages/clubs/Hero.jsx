@@ -19,16 +19,6 @@ const Hero = () => {
             you fundraise and watch your club thrive with a platform built to
             maximise every contribution.
           </p>
-
-          <Link
-            to="https://calendly.com/fundi-au/fundi-demo-call"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="bg-[#ff5a65] hover:bg-[#ff3d5a] text-[15px] text-white font-medium py-[0.625rem] px-[1.5rem] rounded-full transition-colors flex items-center w-full md:w-fit justify-center">
-              Book a demo
-            </button>
-          </Link>
         </div>
 
         <a href="#brands" className="cursor-pointer w-12 h-12 text-2xl rounded-full absolute bottom-5 md:bottom-20 xxl:bottom-16 xxl:bottom-16 left-1/2 -translate-x-1/2 animate-bouncingDown text-white border border-white flex items-center justify-center">

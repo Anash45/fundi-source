@@ -1,7 +1,8 @@
 import { useState, useRef, useEffect } from "react";
-import { FaSchool, FaChurch, FaUsers } from "react-icons/fa";
+import { FaSchool, FaChurch, FaUsers, FaHandHoldingHeart } from "react-icons/fa";
 import schools from "../../assets/schools.png";
 import churches from "../../assets/churches.png";
+import charities from "../../assets/for-charities/Picture1.jpg";
 import clubs from "../../assets/clubs.png";
 import { Link } from "react-router-dom";
 
@@ -19,6 +20,16 @@ export default function SimplifiesOperations() {
       icon: FaSchool,
       linkname: "School Fundraising Software",
       link: "/for-schools"
+    },
+    charities: {
+      title: "Charities",
+      heading: "Fundi simplifies operations for ",
+      description:
+        "Maximise your charity’s fundraising potential with a platform designed to simplify donor engagement and boost contributions effortlessly. Our system automates key processes, reducing administrative workload while offering real-time donation tracking, integrated payment processing, and seamless social media sharing. With a custom-branded donation page, multiple giving options—including one-time, recurring, and round-up donations—and instant tax receipting, you can focus on impact, not operations.",
+      images: [charities],
+      icon: FaHandHoldingHeart,
+      linkname: "Charity Fundraising Software",
+      link: "/for-charities"
     },
     clubs: {
       title: "Clubs",

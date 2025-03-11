@@ -116,6 +116,7 @@ const LetterOfIntent = () => {
         const signatureDrawn = await handleDrawSignature();
         const pdfBase64 = await generatePDF();
         const pdfData = pdfBase64.split(",")[1];
+        console.log(signatureDrawn);
     
         try {
             // Convert Base64 to Blob
@@ -124,7 +125,7 @@ const LetterOfIntent = () => {
             formData.append("file", file, "document.pdf");
     
             // Upload PDF to PHP
-            const response = await fetch("http://localhost/benidoolan/fundi-source/server/upload.php", {
+            const response = await fetch("https://fundi.au/upload.php", {
                 method: "POST",
                 body: formData,
             });

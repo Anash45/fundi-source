@@ -15,7 +15,7 @@ const BannerOne = () => {
               intricacies of fundraising. Designed with real-world insights, it
               empowers fundraising leaders with the tools they need to engage
               supporters, streamline operations, and amplify results. Whether
-              you're managing campaigns for a school, club, or church, fundi
+              you're managing campaigns for a school, charity, club, or church, fundi
               delivers a seamless, results-driven experience.
             </p>
           </div>

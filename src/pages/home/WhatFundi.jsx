@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Clubs from "../../assets/for-clubs.jpeg";
 import Churches from "../../assets/for-churches.jpeg";
 import Schools from "../../assets/for-schools.jpeg";
+import Charities from "../../assets/for-charities/IMAGE-1.jpg";
 import { Link } from "react-router-dom";
 
 const WhatFundi = () => {
@@ -21,6 +22,11 @@ const WhatFundi = () => {
       title: "For Schools",
       image: Schools,
       link: "/for-schools"
+    },
+    {
+      title: "For Charities",
+      image: Charities,
+      link: "/for-charities"
     },
   ];
 
@@ -48,7 +54,7 @@ const WhatFundi = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] sm:gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 gap-[24px] sm:gap-4 md:gap-6">
           {cardData.map((card, index) => (
             <Link to={card.link} key={index}>
               <div
