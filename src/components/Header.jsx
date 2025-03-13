@@ -90,22 +90,6 @@ const Header = () => {
             />
           </Link>
           <ul className="hidden lg:flex items-center flex-1">
-            <li>
-              <Link
-                  to="/for-schools"
-                  className="inter-f text-[15px] text-night-black block py-4 lg:py-2.5 lg:pl-3 px-4 lg:px-3 underline-offset-2 hover:underline transition-all duration-300"
-              >
-                For schools
-              </Link>
-            </li>
-            <li>
-              <Link
-                  to="/for-charities"
-                  className="inter-f text-[15px] text-night-black block py-4 lg:py-2.5 lg:pl-3 px-4 lg:px-3 underline-offset-2 hover:underline transition-all duration-300"
-              >
-                For charities
-              </Link>
-            </li>
 
             <li>
               <Link
@@ -125,12 +109,29 @@ const Header = () => {
               </Link>
             </li>
 
+            <li>
+              <Link
+                  to="/for-schools"
+                  className="inter-f text-[15px] text-night-black block py-4 lg:py-2.5 lg:pl-3 px-4 lg:px-3 underline-offset-2 hover:underline transition-all duration-300"
+              >
+                For schools
+              </Link>
+            </li>
+
             <li className="hidden">
               <Link
                   to="/pricing"
                   className="inter-f text-[15px] text-night-black block py-4 lg:py-2.5 lg:pl-3 px-4 lg:px-3 underline-offset-2 hover:underline transition-all duration-300"
               >
                 Pricing
+              </Link>
+            </li>
+            <li>
+              <Link
+                  to="/for-charities"
+                  className="inter-f text-[15px] text-night-black block py-4 lg:py-2.5 lg:pl-3 px-4 lg:px-3 underline-offset-2 hover:underline transition-all duration-300"
+              >
+                For charities
               </Link>
             </li>
           </ul>

@@ -27,25 +27,6 @@ const HowWorks = () => {
               <p className="md:max-w-[450px] text-[#494951]">
               Traditional fundraising can be time-consuming and unpredictable. Fundi offers a modern, scalable solution that allows charities to secure ongoing funding without relying solely on events, telemarketing, or major donors. With automated features and seamless donation options, Fundi makes fundraising simple, sustainable, and effective.
               </p>
-
-              <div className="border-t pt-4 md:max-w-[450px]">
-                <img src={OAKWOODLogo} alt="Mechefert" loading="lazy" className="h-16" />
-
-                <div className="pt-4 text-sm">
-                  <p className="text-[#494951]">
-                    "The real-time tracking feature has been invaluable for our
-                    school, helping us monitor our fundraising goals and keep
-                    everyone engaged."
-                  </p>
-                  <p className="text-[#494951] mt-4">
-                    Tom Nguyen
-                    <br />
-                    PTA President
-                    <br />
-                    <b>Oakwood Elementary, Canberra</b>
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
 

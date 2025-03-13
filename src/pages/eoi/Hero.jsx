@@ -16,10 +16,6 @@ const Hero = () => {
             </h2>
 
             <p className="text-white mb-6 hidden md:block">
-              Organisations face constant challenges in engaging their communities, especially in the digital age.
-              Traditional fundraising methods often miss out on scalable solutions like recurring donations or round-up
-              options.
-              <br/>
               Empower supporters with multiple ways to give, including round-ups, weekly subscriptions, or one-time
               donations. —where social sharing, online silent auctions, verified volunteers, and automated tax receipts
               are all at your fingertips.
