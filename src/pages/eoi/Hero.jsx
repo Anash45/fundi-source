@@ -17,7 +17,7 @@ const Hero = () => {
 
             <p className="text-white mb-6 hidden md:block">
               Empower supporters with multiple ways to give, including round-ups, weekly subscriptions, or one-time
-              donations. —where social sharing, online silent auctions, verified volunteers, and automated tax receipts
+              donations. Where social sharing, online silent auctions, verified volunteers, and automated tax receipts
               are all at your fingertips.
             </p>
           </div>
