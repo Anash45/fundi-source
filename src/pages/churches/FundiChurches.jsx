@@ -28,19 +28,7 @@ const FundiChurches = () => {
               <div className="border-t pt-4 md:max-w-[450px]">
                 <img src={Logo} alt="Logo" loading="lazy" className="w-14 h-14 rounded-full" />
 
-                <div className="pt-4 text-sm">
-                  <p className="text-[#494951]">
-                    "Fundi's innovative features have empowered our church to
-                    reach more people and raise more."
-                  </p>
-                  <p className="text-[#494951] mt-4">
-                    Mark Thompson
-                    <br />
-                    Community Outreach Director
-                    <br />
-                    <b>St. Andrew's Church, Perth</b>
-                  </p>
-                </div>
+                
               </div>
             </div>
           </div>

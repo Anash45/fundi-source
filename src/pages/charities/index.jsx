@@ -27,7 +27,7 @@ const ForCharities = () => {
       <AccountSetup />
       <AllFeatures />
       <SecurityCompliance />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <MakeItRemarkable />
       <Footer />
     </div>

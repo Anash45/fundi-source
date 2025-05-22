@@ -85,12 +85,10 @@ const Hero = () => {
                     </div>
                   </div>
                   <a
-                    href="https://calendly.com/fundi-au/fundi-demo-call"
-                    target="_blank"
-                    rel="noreferrer"
+                    href="/EOI"
                   >
                     <button className="bg-[#ff5a65] hover:bg-[#ff3d5a] text-[15px] text-white font-medium py-[0.625rem] px-[1.5rem] rounded-full transition-colors flex items-center gap-2 sm:w-fit w-full flex justify-center items-center">
-                      Book a demo
+                      Register your interest
                     </button>
                   </a>
                 </div>

@@ -80,7 +80,36 @@ export default function SimplifiesOperations() {
     >
       <div className="max-w-[1440px] mx-auto">
         <div className="flex lg:flex-row flex-col gap-12 justify-between">
-          <div className="lg:w-6/12 xl:w-5/12 flex flex-col justify-center sm:gap-y-16 gap-y-[30px] px-6 lg:pr-12 lg:pl-20 py-[60px] md:pb-0 lg:pt-[120px] lg:pb-[140px]">
+
+          {/* Left Column - Scrolling Images */}
+          <div className="relative lg:max-w-[500px] max-w-full flex-grow md:flex hidden lg:h-auto h-[460px] overflow-hidden lg:pr-12 lg:pl-20 mt-2.5 md:mt-0 pb-[60px] lg:pb-[0px]">
+            <div
+              ref={scrollRef}
+              className="lg:absolute relative inset-0 transition-transform duration-500 ease-in-out lg:top-[120px] top-0 lg:left-0 left-[26%] w-fit flex lg:flex-col flex-row"
+              style={{
+                height: `${Object.keys(tabs).length * 100}vh`, // Ensure total height for vertical scroll
+                width: `${Object.keys(tabs).length * 100}vw`, // Ensure total width for horizontal scroll
+              }}
+            >
+              {Object.entries(tabs).map(([key, { images }]) => (
+                <div
+                  key={key}
+                  className={`flex items-center justify-center rounded-[60px] overflow-hidden lg:rounded-[60px] aspect-[195/175] sm:aspect-[464/416] object-cover lg:w-full max-w-[195px] sm:max-w-[420px] xl:max-w-[464px] h-full max-h-[175px] sm:max-h-[380px] xl:max-h-[416px] overflow-hidden
+                  ${activeTab === key
+                      ? ""
+                      : "opacity-40 scale-90 transition-[transform,opacity,scale] duration-300"
+                    }`}
+                >
+                  <img
+                    src={images[0]}
+                    alt={`${key} feature`}
+                    className="w-full h-full object-cover rounded-[60px]"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="lg:w-6/12 xl:w-5/12 flex flex-col justify-center sm:gap-y-16 gap-y-[30px] px-6 lg:pl-12 lg:pr-20 py-[60px] md:pb-0 lg:pt-[120px] lg:pb-[140px]">
             <div className="flex flex-wrap gap-2">
               {Object.entries(tabs).map(([key, { title, icon: Icon }]) => (
                 <button
@@ -120,35 +149,6 @@ export default function SimplifiesOperations() {
                   </Link>
                 </div>
               </div>
-            </div>
-          </div>
-
-          {/* Right Column - Scrolling Images */}
-          <div className="relative lg:max-w-[500px] max-w-full flex-grow md:flex hidden lg:h-auto h-[460px] overflow-hidden lg:pl-12 lg:pr-20 mt-2.5 md:mt-0 pb-[60px] lg:pb-[0px]">
-            <div
-              ref={scrollRef}
-              className="lg:absolute relative inset-0 transition-transform duration-500 ease-in-out lg:top-[120px] top-0 lg:left-0 left-[26%] w-fit flex lg:flex-col flex-row"
-              style={{
-                height: `${Object.keys(tabs).length * 100}vh`, // Ensure total height for vertical scroll
-                width: `${Object.keys(tabs).length * 100}vw`, // Ensure total width for horizontal scroll
-              }}
-            >
-              {Object.entries(tabs).map(([key, { images }]) => (
-                <div
-                  key={key}
-                  className={`flex items-center justify-center rounded-[60px] overflow-hidden lg:rounded-[60px] aspect-[195/175] sm:aspect-[464/416] object-cover lg:w-full max-w-[195px] sm:max-w-[420px] xl:max-w-[464px] h-full max-h-[175px] sm:max-h-[380px] xl:max-h-[416px] overflow-hidden
-                  ${activeTab === key
-                      ? ""
-                      : "opacity-40 scale-90 transition-[transform,opacity,scale] duration-300"
-                    }`}
-                >
-                  <img
-                    src={images[0]}
-                    alt={`${key} feature`}
-                    className="w-full h-full object-cover rounded-[60px]"
-                  />
-                </div>
-              ))}
             </div>
           </div>
         </div>

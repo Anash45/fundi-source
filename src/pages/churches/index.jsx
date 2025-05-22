@@ -19,7 +19,7 @@ const ForChurches = () => {
     <div>
       <Header />
       <Hero />
-      <TrustedSupports />
+      {/* <TrustedSupports /> */}
       <FundiChurches />
       <PopularFeaturesChurches />
       <Video videoSrc={VideoThree} />
@@ -27,7 +27,7 @@ const ForChurches = () => {
       <AccountSetup />
       <AllFeatures />
       <SecurityCompliance />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <MakeItRemarkable />
       <Footer />
     </div>

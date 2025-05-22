@@ -196,12 +196,10 @@ const Header = () => {
               Login
             </Link>
             <a
-              href="https://calendly.com/fundi-au/fundi-demo-call"
-              target="_blank"
-              rel="noreferrer"
+              href="/EOI"
             >
               <button className="bg-[#ff5a65] border border-[#ff5a65] text-white rounded-[80px] text-xs md:text-[15px] font-medium cursor-pointer py-2 md:py-[.625rem] px-3 md:px-[1.5rem] transition-colors duration-300 inter-f hover:bg-[#db4550]">
-                Book a demo
+                Register your interest
               </button>
             </a>
 

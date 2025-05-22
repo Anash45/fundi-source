@@ -21,24 +21,7 @@ const FundiForSchools = () => {
                 effectively, ensuring every dollar makes a difference.
               </p>
 
-              <div className="border-t pt-4 md:max-w-[450px]">
-                <img src={Mechefert} alt="Mechefert" className="w-16 h-16 object-cover rounded-full" />
-
-                <div className="pt-4">
-                  <p className="text-[#494951] text-sm">
-                    "With Fundi, we can now focus on building relationships with
-                    our supporters rather than worrying about fundraising
-                    logistics."
-                  </p>
-                  <p className="text-[#494951] mt-4 text-sm">
-                    Anna Miller
-                    <br />
-                    Executive Director
-                    <br />
-                    <b>Bright Futures Academy, Canberra</b>
-                  </p>
-                </div>
-              </div>
+              
             </div>
           </div>
 

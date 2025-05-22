@@ -24,24 +24,6 @@ const HowWorks = () => {
                 endless planning and volunteer hours.
               </p>
 
-              <div className="border-t pt-4 md:max-w-[450px]">
-                <img src={OAKWOODLogo} alt="Mechefert" loading="lazy" className="h-16" />
-
-                <div className="pt-4 text-sm">
-                  <p className="text-[#494951]">
-                    "The real-time tracking feature has been invaluable for our
-                    school, helping us monitor our fundraising goals and keep
-                    everyone engaged."
-                  </p>
-                  <p className="text-[#494951] mt-4">
-                    Tom Nguyen
-                    <br />
-                    PTA President
-                    <br />
-                    <b>Oakwood Elementary, Canberra</b>
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
 

@@ -24,23 +24,7 @@ const FundiClubs = () => {
                 focus on what matters most.
               </p>
 
-              <div className="border-t pt-4 md:max-w-[450px]">
-                <img src={HRLogo} alt="HRLogo" className="w-14 h-14 rounded-full" />
-
-                <div className="pt-4 text-sm">
-                  <p className="text-[#494951]">
-                    "The platform's ability to connect supporters and streamline
-                    donations has made our events more successful than ever."
-                  </p>
-                  <p className="text-[#494951] mt-4">
-                    Jessica Lee
-                    <br />
-                    Events Coordinator
-                    <br />
-                    <b>Harmony Sports Club, Adelaide</b>
-                  </p>
-                </div>
-              </div>
+              
             </div>
           </div>
 

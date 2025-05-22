@@ -3,6 +3,7 @@ import Facebook from "../assets/facebook.png";
 import Instagram from "../assets/instagram.png";
 import Linkden from "../assets/linkden.png";
 import Youtube from "../assets/youtube.png";
+import Envelope from "../assets/envelope.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -66,6 +67,19 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
+            <div className="mt-3">
+              <Link
+              to={`mailto:hello@fundi.au`}
+              className="flex items-center text-white/80 hover:text-white gap-2"
+            >
+              <img
+                src={Envelope}
+                alt="Envelope"
+                className="h-[24px] opacity-80"
+              />
+              <span>hello@fundi.au</span>
+            </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -81,7 +95,7 @@ const Footer = () => {
                 For Schools
               </Link>
             </li>
-            
+
             <li>
               <Link
                 to="/for-charities"
@@ -108,7 +122,6 @@ const Footer = () => {
                 For Churches
               </Link>
             </li>
-
 
             <li>
               <a

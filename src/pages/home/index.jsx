@@ -13,6 +13,7 @@ import FAQ from "./FAQ";
 import SimplifiesOperations from "./SimplifiesOperations";
 import Hospitality from "./Hospitality";
 import ScrollToFAQ from "../../components/ScrollToFaq";
+import BelowBanner from "./BelowBanner";
 
 const Home = () => {
   const colors = useMemo(() => ["#EFEFFF", "#E6F5F0"], []);
@@ -37,8 +38,7 @@ const Home = () => {
         style={{ backgroundColor: bgColor }}
       >
         <Hero />
-
-        <Brands />
+        <BelowBanner />
         <WhatFundi />
       </div>
       <Hospitality />
@@ -47,7 +47,7 @@ const Home = () => {
       <Technology />
       <SimplifiesOperations />
       <CertifiedCompanies />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <MakeItRemarkable />
       <FAQ />
       <Footer />

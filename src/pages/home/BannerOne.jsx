@@ -5,7 +5,7 @@ const BannerOne = () => {
   return (
     <section className="px-4 pt-[60px] pb-[60px] md:pb-[80px]">
       <div className="max-w-[1440px] w-full mx-auto px-5 md:px-20 pb-14 md:pb-20 pt-5 md:pt-20 rounded-[20px] md:rounded-[40px] bg-[#f8f5f2]">
-        <div className="flex flex-col-reverse lg:flex-row gap-x-20 gap-y-[30px] md:items-center">
+        <div className="flex flex-col-reverse lg:flex-row-reverse gap-x-20 gap-y-[30px] md:items-center">
           <div className="w-full lg:w-[50%]">
             <h2 className="max-w-[520px] w-full mb-4 text-night-black font-axiforma-r text-[22px] md:text-[32px] leading-[1.4]">
               Built by fundraising leaders for fundraising leaders

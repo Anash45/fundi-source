@@ -2,7 +2,7 @@ import React from "react";
 
 const TabsNavigation = () => {
   return (
-    <section className="hidden sm:block relative px-4 pt-[60px] md:pt-[100px]">
+    <section className="hidden sm:block relative px-4 py-[60px] md:py-[100px]">
       <div className="w-full lg:max-w-[900px] mx-auto">
         <p class="mb-5 font-medium text-[#8D8D92] text-center">
           A complete fundraising platform.

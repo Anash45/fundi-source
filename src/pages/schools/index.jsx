@@ -21,14 +21,14 @@ const ForSchools = () => {
       <Header />
       <Hero />
       <TabsNavigation />
-      <FundiForSchools />
+      {/* <FundiForSchools /> */}
       <PopularFeatures />
       <Video videoSrc={VideoOne} />
       <HowWorks />
       <AccountSetup />
       <AllFeatures />
       <SecurityCompliance />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <MakeItRemarkable />
       <Footer />
     </div>

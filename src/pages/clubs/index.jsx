@@ -22,7 +22,7 @@ const ForClubs = () => {
 
       <div className="bg-[#f2f5f8]">
         <Hero />
-        <TrustedSupports id="brands" />
+        {/* <TrustedSupports id="brands" /> */}
         <FundiClubs />
       </div>
 
@@ -32,7 +32,7 @@ const ForClubs = () => {
       <AccountSetup />
       <AllFeatures />
       <SecurityCompliance />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <MakeItRemarkable />
       <Footer />
     </div>
