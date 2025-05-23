@@ -25,11 +25,6 @@ const FundiChurches = () => {
                 lasting impact.
               </p>
 
-              <div className="border-t pt-4 md:max-w-[450px]">
-                <img src={Logo} alt="Logo" loading="lazy" className="w-14 h-14 rounded-full" />
-
-                
-              </div>
             </div>
           </div>
 

@@ -79,13 +79,13 @@ const BelowBanner = () => {
         <div className="flex-col flex gap-x-16 gap-y-8 lg:flex-row relative">
           <div className="w-full lg:w-6/12 lg:items-center justify-start items-center flex relative pr-4 pl-4 xl:pl-0">
             <div className="gap-y-6 flex flex-col w-full">
-              <h1 class="text-[48px] text-[#1c1d24] leading-[125%] font-axiforma-r mb-5">
+              <h1 class="md:max-w-[600px] text-[40px] text-[#1c1d24] leading-[125%] font-axiforma-r">
                 How Fundi Works
               </h1>
 
               {fundraisingSteps.map((step, idx) => (
                 <div className="home-step mb-3">
-                  <h3 class="text-[30px] text-[#1c1d24] leading-[125%] font-axiforma-r">
+                  <h3 class="text-[20px] text-[#1c1d24] leading-[125%] font-axiforma-r">
                     {step.step}
                   </h3>
                   <h4 class="text-[20px] text-[#1c1d24] leading-[125%] font-axiforma-r">
@@ -109,12 +109,11 @@ const BelowBanner = () => {
           </div>
         </div>
 
-        <p className="md:max-w-[850px] mx-auto text-[#1b1b1b] text-2xl mt-16 text-center">
+        <p className="text-[#494951] text-base inter-f text-center mt-8">
           Whether you lead a school, manage a sports club, run a church, or
           drive a grassroots charity. Fundi puts world-class fundraising tools
           at your fingertips. <br />
-          <br />
-          It's not just better fundraising. <br />
+          It's not just better fundraising.
           It's a smarter way to grow your community.
         </p>
       </div>

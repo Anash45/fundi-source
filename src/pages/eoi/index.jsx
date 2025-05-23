@@ -3,6 +3,8 @@ import Header from "../../components/Header";
 import Hero from "./Hero";
 import Footer from "../../components/Footer";
 import LetterOfIntent from "./LetterOfIntent";
+import SimplifiesOperations from "../home/SimplifiesOperations";
+import Technology from "../home/Technology";
 
 const EOI = () => {
 

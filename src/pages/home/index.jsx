@@ -48,7 +48,7 @@ const Home = () => {
       <SimplifiesOperations />
       <CertifiedCompanies />
       {/* <Testimonials /> */}
-      <MakeItRemarkable />
+      <MakeItRemarkable isHome={true} />
       <FAQ />
       <Footer />
     </div>
