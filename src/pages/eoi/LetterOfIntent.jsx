@@ -152,7 +152,7 @@ const LetterOfIntent = () => {
         const element = sectionRef.current;
         const opt = {
             margin: 0.5,
-            filename: "letter_of_intent.pdf",
+            filename: "Expression_of_Interest.pdf",
             image: { type: "jpeg", quality: 0.9 }, // Lower quality for smaller file size
             html2canvas: { scale: 1.5 }, // Lower scaling for smaller file size
             jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
@@ -456,7 +456,7 @@ const LetterOfIntent = () => {
                             className="bg-white p-6 rounded-lg shadow-lg w-11/12 md:w-1/2 transition-transform duration-500 ease-in-out transform translate-y-0">
                             <h2 className="text-xl font-bold mb-4">Thank You!</h2>
                             <p className="text-center">
-                                Thank you for submitting your Letter of Intent and taking the first step toward
+                                Thank you for submitting your Expression of Interest and taking the first step toward
                                 transforming
                                 your organisation's fundraising efforts.
                             </p>

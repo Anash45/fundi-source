@@ -24,8 +24,8 @@ const featuresdata = [
 
   {
     icons: Icon2,
-    title: "Customisable school profile",
-    disc: " Showcase your school’s mission, goals, and fundraising initiatives on a personalised profile that engages your community.",
+    title: "Customisable charity profile",
+    disc: " Showcase your charity’s mission, goals, and fundraising initiatives on a personalised profile that engages your community.",
   },
 
   {
@@ -37,7 +37,7 @@ const featuresdata = [
   {
     icons: Icon4,
     title: "Easy sign-up with QR codes",
-    disc: "Generate a custom QR codes or link that directs supporters, making it simple for parents, alumni, and supporters to get involved instantly.",
+    disc: "Generate a custom QR codes or link that directs supporters, making it simple for supporters to get involved instantly.",
   },
 
   {
@@ -49,7 +49,7 @@ const featuresdata = [
   {
     icons: Icon6,
     title: "Gamified rankings and rewards",
-    disc: "Motivate and engage your school community with a gamified ranking system that encourages friendly competition and celebrates top supporters.",
+    disc: "Motivate and engage your charity community with a gamified ranking system that encourages friendly competition and celebrates top supporters.",
   },
 
   {
@@ -76,22 +76,22 @@ const featuresdata = [
   {
     icons: Icon11,
     title: "Automated tax receipting",
-    disc: "Eliminate the hassle of tax documentation with automatic receipting for all donations, simplifying year-end processes for supporters and your school.",
+    disc: "Eliminate the hassle of tax documentation with automatic receipting for all donations, simplifying year-end processes for supporters.",
   },
   {
     icons: Icon12,
     title: "Seamless financial support",
-    disc: "Receive 100% of supporter contributions with no hidden fees or deductions, ensuring every dollar goes toward your school’s needs.",
+    disc: "Receive 100% of supporter contributions with no hidden fees or deductions, ensuring every dollar goes toward your charity’s needs.",
   },
   {
     icons: Icon13,
     title: "Silent auction platform (Silenti)",
-    disc: "Access Silenti, an online silent auction feature, allowing your school to host exclusive fundraising events with ease.",
+    disc: "Access Silenti, an online silent auction feature, allowing your charity to host exclusive fundraising events with ease.",
   },
   {
     icons: Icon14,
     title: "Weekly payouts",
-    disc: "Enjoy consistent cash flow with weekly deposits, ensuring your school has regular access to 100% of funds raised for essential initiatives.",
+    disc: "Enjoy consistent cash flow with weekly deposits, ensuring your charity has regular access to 100% of funds raised for essential initiatives.",
   },
   {
     icons: Icon15,

@@ -61,13 +61,18 @@ export default function SimplifiesOperations() {
     if (scrollRef.current) {
       const tabIndex = Object.keys(tabs).indexOf(activeTab);
       const isLargeScreen = window.innerWidth >= 1024;
+      const isMedium = window.innerWidth > 640;
+      const isSmall = window.innerWidth <= 640;
 
       if (isLargeScreen) {
         // Vertical scroll for large screens
         scrollRef.current.style.transform = `translateY(-${tabIndex * 420}px)`;
-      } else {
+      } else if(isMedium) {
         // Horizontal scroll for smaller screens
         scrollRef.current.style.transform = `translateX(-${tabIndex * 420}px)`;
+      } else {
+        // Horizontal scroll for smaller screens
+        scrollRef.current.style.transform = `translateX(-${tabIndex * 295}px)`;
       }
       scrollRef.current.style.transition = "transform 0.5s ease-in-out";
     }
@@ -76,16 +81,16 @@ export default function SimplifiesOperations() {
   return (
     <div
       className={`${activeTab === "clubs" ? "bg-[#222b28]" : "bg-[#172135]"
-        } lg:px-[80px] px-6 text-white rounded-[40px] lg:rounded-[80px]`}
+        } lg:px-[80px] px-6 text-white rounded-[40px] lg:rounded-[80px] lg:pt-0 pt-[60px]`}
     >
       <div className="container w-full mx-auto relative">
-        <div className="flex lg:flex-row flex-col gap-12 justify-between">
+        <div className="flex lg:flex-row flex-col sm:gap-12 justify-between">
 
           {/* Left Column - Scrolling Images */}
-          <div className="relative lg:max-w-[500px] max-w-full flex-grow md:flex hidden lg:h-auto h-[460px] overflow-hidden lg:pr-12 lg:pl-20 mt-2.5 md:mt-0 pb-0">
+          <div className="relative lg:max-w-[500px] max-w-full flex-grow flex lg:h-auto h-[360px] overflow-hidden lg:pr-12 lg:pl-20 mt-2.5 md:mt-0 pb-0">
             <div
               ref={scrollRef}
-              className="lg:absolute relative inset-0 transition-transform duration-500 ease-in-out lg:top-[120px] top-0 lg:left-0 left-[26%] w-fit flex lg:flex-col flex-row"
+              className="lg:absolute relative inset-0 transition-transform duration-500 ease-in-out lg:top-[120px] top-0 left-0  w-fit flex lg:flex-col flex-row"
               style={{
                 height: `${Object.keys(tabs).length * 100}vh`, // Ensure total height for vertical scroll
                 width: `${Object.keys(tabs).length * 100}vw`, // Ensure total width for horizontal scroll
@@ -94,7 +99,7 @@ export default function SimplifiesOperations() {
               {Object.entries(tabs).map(([key, { images }]) => (
                 <div
                   key={key}
-                  className={`flex items-center justify-center rounded-[60px] overflow-hidden lg:rounded-[60px] aspect-[195/175] sm:aspect-[464/416] object-cover lg:w-full max-w-[195px] sm:max-w-[420px] xl:max-w-[464px] h-full max-h-[175px] sm:max-h-[380px] xl:max-h-[416px] overflow-hidden
+                  className={`flex items-center justify-center rounded-[60px] overflow-hidden lg:rounded-[60px] aspect-[195/175] sm:aspect-[464/416] object-cover lg:w-full max-w-[295px] sm:max-w-[420px] xl:max-w-[464px] h-full max-h-[275px] sm:max-h-[380px] xl:max-h-[416px] overflow-hidden
                   ${activeTab === key
                       ? ""
                       : "opacity-40 scale-90 transition-[transform,opacity,scale] duration-300"
@@ -109,7 +114,7 @@ export default function SimplifiesOperations() {
               ))}
             </div>
           </div>
-          <div className="lg:w-6/12 xl:w-5/12 flex flex-col justify-center sm:gap-y-16 gap-y-[30px] px-6 lg:pl-0 lg:pr-10 lg:py-[60px] pb-[60px] lg:pt-[120px] lg:pb-[140px]">
+          <div className="lg:w-6/12 xl:w-5/12 flex flex-col justify-center sm:gap-y-16 gap-y-[30px] lg:pl-0 lg:pr-10 lg:py-[60px] pb-[60px] lg:pt-[120px] lg:pb-[140px]">
             <div className="flex flex-wrap gap-2">
               {Object.entries(tabs).map(([key, { title, icon: Icon }]) => (
                 <button

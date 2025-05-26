@@ -36,7 +36,7 @@ const BelowBanner = () => {
     },
   ];
   return (
-    <section className="pt-[60px] md:pt-[100px] pb-[30px] md:pb-[100px]">
+    <section className="pt-[60px] md:pt-[100px] pb-[30px]">
       <div className="relative max-w-[1280px] mx-auto">
         <div className="flex-col flex gap-x-16 gap-y-8 lg:flex-row-reverse relative">
           <div className="w-full lg:w-6/12 lg:items-center justify-start items-center flex relative pl-4 pr-4 xl:pr-0">
@@ -108,14 +108,6 @@ const BelowBanner = () => {
             />
           </div>
         </div>
-
-        <p className="text-[#494951] text-base inter-f text-center mt-8">
-          Whether you lead a school, manage a sports club, run a church, or
-          drive a grassroots charity. Fundi puts world-class fundraising tools
-          at your fingertips. <br />
-          It's not just better fundraising.
-          It's a smarter way to grow your community.
-        </p>
       </div>
     </section>
   );

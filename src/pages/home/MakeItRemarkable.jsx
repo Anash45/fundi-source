@@ -5,16 +5,16 @@ import { Link } from "react-router-dom";
 const MakeItRemarkable = ({ isHome = false }) => {
   return (
     <div className="bg-[#F8F5F2]">
-      <div className="bg-[#E6F5F0]  py-[6rem] px-6 lg:px-8">
+      <div className="bg-[#E6F5F0]  lg:py-[6rem] py-[3rem] px-6 lg:px-8">
         {isHome ? (
           <div className="container mx-auto">
-            <div className="max-w-[1062px] mx-auto flex flex-col md:flex-row items-center md:gap-[4rem] lg:gap-[7rem]">
-              <div className="w-full md:w-[50%] lg:w-1/2 sm:flex hidden">
+            <div className="max-w-[1062px] mx-auto flex flex-col md:flex-row items-center gap-[2rem] md:gap-[4rem] lg:gap-[7rem]">
+              <div className="w-full md:w-[50%] lg:w-1/2 flex">
                 <div className="relative w-full overflow-hidden md:max-w-[500px]">
                   <img
                     src={makeItRemarkable}
                     alt="Vintage hotel interior with chairs and tables"
-                    className="image rounded-3xl lg:rounded-[40px] aspect-[464/416] object-cover lg:w-full h-full hidden md:flex lg:flex"
+                    className="image rounded-3xl lg:rounded-[40px] aspect-[464/416] object-cover lg:w-full h-full flex"
                   />
                 </div>
               </div>

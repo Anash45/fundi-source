@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bf8a4e3.css",
-    "main.js": "/static/js/main.d7443789.js",
+    "main.css": "/static/css/main.03b5090a.css",
+    "main.js": "/static/js/main.25b9f843.js",
     "static/js/453.02d18ed3.chunk.js": "/static/js/453.02d18ed3.chunk.js",
     "static/media/hero-video-2.mp4": "/static/media/hero-video-2.25ed0f026e440bc05a60.mp4",
     "static/media/VIDEO 3 Fundi - Church supporter sign up demo.mp4": "/static/media/VIDEO 3 Fundi - Church supporter sign up demo.00ce1fa9c68c7eb86154.mp4",
@@ -107,12 +107,12 @@
     "index.html": "/index.html",
     "static/media/fr.svg": "/static/media/fr.2a313587609540445958911aff707455.svg",
     "static/media/right-arrow-1.svg": "/static/media/right-arrow-1.f4e644bdd7bbca472b6a.svg",
-    "main.7bf8a4e3.css.map": "/static/css/main.7bf8a4e3.css.map",
-    "main.d7443789.js.map": "/static/js/main.d7443789.js.map",
+    "main.03b5090a.css.map": "/static/css/main.03b5090a.css.map",
+    "main.25b9f843.js.map": "/static/js/main.25b9f843.js.map",
     "453.02d18ed3.chunk.js.map": "/static/js/453.02d18ed3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bf8a4e3.css",
-    "static/js/main.d7443789.js"
+    "static/css/main.03b5090a.css",
+    "static/js/main.25b9f843.js"
   ]
 }
